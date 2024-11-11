@@ -178,14 +178,3 @@ for i in range(n):
 
 for hand_type, count in hand_type_count.items():
   print(f'{count} out of {n} ({round(100 * count / n, 2)}%) trials resulted in a {hand_type}')
-
-
-
-
-
-  
-  
-
-    
-
-
