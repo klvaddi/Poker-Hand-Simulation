@@ -84,7 +84,6 @@ def test_check_flush(hand, expected):
         (['5 Hearts', '2 Diamonds', 'J Hearts', '4 Hearts', 'K Hearts', 'A Clubs', '3 Spades'], True), # Ace low
         (['T Hearts', 'J Hearts', 'Q Hearts', 'K Hearts', '8 Hearts', '2 Diamonds', 'A Spades'], True), # Ace high
         (['9 Hearts', 'J Hearts', 'Q Hearts', 'K Hearts', '8 Hearts', '2 Diamonds', 'A Spades'], False), # Has max of 3 consecutive
-    
     ]
 )
 def test_check_straight(hand, expected):
